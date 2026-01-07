@@ -1,0 +1,12 @@
+export { Main } from "./Main";
+export { ProblemSection } from "./ProblemSection";
+export { SolutionSection } from "./SolutionSection";
+export { IncludesEbook } from "./IncludesEbook";
+export { WhoIsItFor } from "./WhoIsItFor";
+export { Benefits } from "./Benefits";
+export { Authority } from "./Authority";
+export { Testimonial } from "./Testimonial";
+export { Price } from "./Price";
+export { Faq } from "./Faq";
+export * from "./layout";
+export * from "./ui";

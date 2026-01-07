@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-primary: #fff8e6;
+  --color-secondary: #f5ff6b;
+  --color-caption: #3a3a3a;
+  --color-container: #171717;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
