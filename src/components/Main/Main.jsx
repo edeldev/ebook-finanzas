@@ -29,7 +29,7 @@ export const Main = () => {
 
           <div className="mt-10">
             <a
-              href="#"
+              href="https://pay.hotmart.com/B103735476T"
               className="inline-flex items-center justify-center rounded-full bg-secondary px-8 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-secondary/80 hover:scale-105 hover:shadow-xl"
             >
               Obtener la guía
