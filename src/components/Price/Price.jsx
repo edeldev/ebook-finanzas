@@ -13,8 +13,8 @@ export const Price = () => {
       <HeadingTwo text={["Precio"]} />
 
       <SubContainer>
-        <div className="rounded-3xl bg-container shadow-2xl overflow-hidden">
-          <div className="grid md:grid-cols-2">
+        <div className="rounded-3xl bg-container shadow-2xl overflow-hidden p-6">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-0">
             <div className="relative">
               <img
                 src="/ebook.webp"
@@ -23,16 +23,18 @@ export const Price = () => {
               />
             </div>
 
-            <div className="p-8 md:p-10 flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
               <span className="mb-4 inline-flex w-fit items-center gap-2 rounded-full bg-secondary/20 px-4 py-1 text-xs font-semibold text-secondary">
                 <IconBolt size={14} />
                 Acceso inmediato a la guía
               </span>
 
               <div>
-                <p className="text-sm text-gray-300">Precio especial</p>
+                <p className="text-sm text-gray-300 text-center">
+                  Precio especial
+                </p>
                 <p className="mt-2 text-5xl font-bold text-white">
-                  $9{" "}
+                  $6,99{" "}
                   <span className="text-lg font-medium text-gray-400">USD</span>
                 </p>
               </div>
@@ -54,7 +56,7 @@ export const Price = () => {
 
               <div className="mt-10">
                 <a
-                  href="#"
+                  href="https://pay.hotmart.com/B103735476T"
                   className="inline-flex w-full items-center justify-center rounded-full bg-secondary px-8 py-4 text-sm md:text-base font-semibold text-black transition-all duration-300 hover:bg-secondary/80 hover:scale-[1.03] hover:shadow-2xl"
                 >
                   👉 Quiero empezar hoy

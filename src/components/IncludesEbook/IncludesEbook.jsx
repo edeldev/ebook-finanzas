@@ -39,7 +39,7 @@ export const IncludesEbook = () => {
 
           <div className="mt-10 flex justify-center">
             <a
-              href="#"
+              href="https://pay.hotmart.com/B103735476T"
               className="inline-flex items-center justify-center rounded-full bg-secondary px-10 py-4 text-sm md:text-base font-semibold text-black transition-all duration-300 hover:bg-secondary/80 hover:scale-105 hover:shadow-xl"
             >
               Obtener guía
